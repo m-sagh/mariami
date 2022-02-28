@@ -1,0 +1,121 @@
+body {
+  font-family: monospace;
+  background-color: antiquewhite;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+ul img {
+  height: 50px;
+}
+a {
+  color: white;
+  display: block;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.menu {
+  display: flex;
+}
+h1 {
+  margin-top: 100px;
+}
+
+li a:hover {
+  background-color: rgba(204, 212, 255, 0.05);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+}
+.ac {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.sardegna img {
+  height: 500px;
+  width: 600px;
+}
+.cagliari img {
+  height: 400px;
+  width: 500px;
+}
+.calasetta img {
+  height: 500px;
+  width: 600px;
+}
+.mangia img {
+  height: 400px;
+  width: 600px;
+}
+.castelsardo img {
+  height: 500px;
+  width: 600px;
+}
+p {
+  color: rgb(87, 33, 33);
+}
+.main1 {
+  margin-top: 100px !important;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.s {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.text p {
+  font-size: 20px;
+  color: rgb(202, 30, 30);
+  padding: 20px;
+  line-height: 30px;
+}
+.text2 p {
+  font-size: 20px;
+  color: rgb(201, 42, 42);
+  padding: 20px;
+  line-height: 30px;
+}
+.mar {
+  background-color: rgb(177, 206, 49);
+}
+.mari {
+  background-color: rgb(206, 112, 49);
+}
+.mariam {
+  background-color: rgb(24, 6, 53);
+}
+.mariami {
+  background-color: rgb(49, 162, 206);
+}
+.mars {
+  background-color: rgb(206, 49, 167);
+}
+.maris {
+  background-color: rgb(206, 49, 57);
+}
+.mariams {
+  background-color: rgb(104, 49, 206);
+}
+.mariamis {
+  background-color: rgb(20, 199, 74);
+}
