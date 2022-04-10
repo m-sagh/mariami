@@ -1,0 +1,952 @@
+body {
+    margin: 0;
+  }
+  
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #433a4a;
+  }
+  .main {
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 255, 0.1);
+    justify-content: space-between;
+    margin-left: 126px;
+    margin-right: 124px;
+  }
+  
+  .left {
+    display: flex;
+  }
+  
+  .logo img {
+    margin-top: 17.07px;
+    margin-bottom: 26.35px;
+  }
+  
+  ul {
+    list-style-type: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #2f2643;
+    margin-left: 61px;
+  }
+  
+  .right {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .right a {
+    text-decoration: none;
+  }
+  
+  .login {
+    color: #000;
+  }
+  
+  .start {
+    background: #ff707a;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 10px 18px 10px 18px;
+    margin-left: 35px;
+  }
+  
+  .take {
+    text-align: center;
+    margin-top: 136px;
+  }
+  .take h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+    text-align: center;
+    color: #190e2f;
+  }
+  
+  .take h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 103%;
+    color: #190e2f;
+    margin-top: 40px;
+  }
+  
+  .take a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #ff707a;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 14px 27px 15px 26px;
+    margin-top: 32px;
+  }
+  
+  .imm1 {
+    display: flex;
+    justify-content: center;
+  }
+  .imm1 img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .minutes {
+    text-align: center;
+  }
+  
+  .minutes h1 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 120%;
+  }
+  
+  .sign {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .up {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 320px;
+    height: 120px;
+    border-radius: 9px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 255, 0.1);
+    border-top: 6px solid #ff707a;
+    display: flex;
+  }
+  .up img {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 27.05px;
+    width: 12.95px;
+    height: 32px;
+  }
+  .cust {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 320px;
+    height: 120px;
+    border-radius: 9px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 255, 0.1);
+    border-top: 6px solid #f5b118;
+    display: flex;
+  }
+  .cust img {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 17.39px;
+    width: 22.61px;
+    height: 32px;
+  }
+  .share {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 320px;
+    height: 120px;
+    border-radius: 9px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 255, 0.1);
+    border-top: 6px solid #00aedc;
+    display: flex;
+  }
+  .share img {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 19.37px;
+    width: 22.63px;
+    height: 32px;
+  }
+  .startnow {
+    text-align: center;
+    margin-top: 56px;
+  }
+  
+  .startnow a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #ff707a;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 14px 27px 15px 26px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .features {
+    margin-top: 56px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #190e2f;
+    text-align: center;
+  }
+  
+  .sch {
+    margin-top: 136px;
+    margin-left: 166px;
+    margin-right: 145px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .edu a {
+    text-decoration: none;
+    color: #00aedc;
+  }
+  
+  .edu {
+    padding: 20px;
+  }
+  
+  .the {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 229px;
+    margin-left: 88px;
+    margin-right: 123px;
+  }
+  
+  .theonly h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 120%;
+    color: #190e2f;
+  }
+  
+  .the img {
+    width: 30%;
+    height: 15%;
+  }
+  
+  .the a {
+    color: #ff707a;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: underline;
+  }
+  
+  .benefits {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 86px;
+    margin-right: 150px;
+  }
+  .save {
+    display: flex;
+    align-items: center;
+  }
+  
+  .save a {
+    text-decoration: none;
+    color: #00aedc;
+    margin-right: 15.5px;
+  }
+  
+  .immge img {
+    width: 100%;
+  }
+  
+  .trusted {
+    margin-left: 135;
+    margin-right: 137;
+  }
+  .trusted h1 {
+    text-align: center;
+  }
+  
+  .mar{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 65px;
+  }
+  
+  .sag {
+    padding: 20px;
+  }
+  
+  .free {
+    text-align: center;
+    margin-top: 152px;
+  }
+  
+  .once {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .what {
+    text-align: center;
+    margin-top: 48px;
+    color: #f77881;
+  }
+  
+  .everything{
+    justify-content: center;
+    display: flex;
+  }
+  .classs {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .classs a {
+    text-decoration: none;
+    padding: 16px 47px 16px 47px;
+    background-color: #ff707a;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .class1 {
+    margin-top: 102px;
+    height: 20%;
+    width: 100%;
+    background-color: #474f5a;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .fin {
+    margin-top: 66.87px;
+    margin-left: 181px;
+  }
+  
+  .fin p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 210%;
+    text-transform: capitalize;
+    color: #dbe3e6;
+  }
+  /* about.html */
+  
+  .meet {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 106px;
+    margin-left: 125px;
+    margin-top: 153px;
+  }
+  
+  .with h1 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    color: #190e2f;
+  }
+  
+  .with a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ff707a;
+  }
+  .ease img {
+    padding: 50px;
+    height: 386.91px;
+    width: 495px;
+  }
+  .ease h1 {
+    display: none;
+  }
+  .brand {
+    justify-content: center;
+    display: flex;
+    margin-top: 213px;
+    margin-left: 129px;
+    margin-right: 68px;
+  }
+  .brand-image h1 {
+    display: none;
+  }
+  .brand_image img {
+    width: 483px;
+    height: 399.13px;
+  }
+  .your {
+    margin-left: 280px;
+  }
+  
+  .your a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ff707a;
+  }
+  
+  .easily {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 200px;
+  }
+  
+  .widget a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ff707a;
+    padding: 12px 21px 12px 21px;
+    border: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .site h1 {
+    display: none;
+  }
+  .biling {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 200px;
+  }
+  .has h1 {
+    display: none;
+  }
+  .has img {
+    width: 495px;
+    height: 416px;
+  }
+  
+  .never a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff707a;
+  }
+  
+  .sagh {
+    display: flex;
+    align-items: center;
+  }
+  
+  .manage {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 200px;
+  }
+  .clients h1 {
+    display: none;
+  }
+
+  .clients a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ff707a;
+  } 
+  
+  .manage-image img {
+    width: 543px;
+    height: 412px;
+  }
+  
+  
+  .them {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 207px;
+  }
+
+  .face a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff707a;
+  }
+  
+  .immagge a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff707a;
+  }
+  .immagge h1 {
+    display: none;
+  }
+  
+  .run {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 148px;
+  }
+  .awesome a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff707a;
+  }
+  .imagees h1{
+      display: none;
+  }
+  .imagees img {
+    width: 464px;
+    height: 444.74px;
+  }
+  
+  .footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background: #ff707a;
+    margin-bottom: -102px;
+  }
+  
+  .footer h1 {
+    color: #ffffff;
+  }
+  
+  .footer a {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 16px 48px 16px 48px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ff707a;
+    margin-left: 33px;
+  }
+  /* news.html */
+  .blog {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #f77881;
+    margin-left: 16%;
+  }
+  .mari {
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+  }
+  
+  .text {
+    text-align: center;
+  }
+  .text a {
+    text-decoration: none;
+    color: #00aedc;
+  }
+  
+  
+  
+  
+ 
+  
+  /* contact.htm */
+  
+  .contact {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #ff707a;
+    margin-left: 250px;
+    margin-top: 36px;
+  }
+  
+  .how h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 32px;
+  }
+  
+  form label,
+  input {
+    display: block;
+    color: black;
+  }
+  .navv {
+    height: 350px;
+    width: 300px;
+    background-color: rgba(196, 196, 196, 0.432);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .fine {
+    background-color: #ff707a;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+ 
+   
+.class2 {
+    margin-top: 400px;
+    height: 20%;
+    width: 100%;
+    background-color: #474f5a;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+  /* media screen */
+@media screen and (max-width: 575px) {
+  .right {
+    display: none;
+  }
+  .left ul {
+    display: none;
+  }
+  .sign {
+    flex-wrap: wrap;
+  }
+  .sch {
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 0;
+    display: block;
+    margin-left: 30px;
+  }
+  .the {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 42px;
+    margin-right: 9px;
+  }
+  .the h2 {
+    text-align: center;
+  }
+  .the img {
+    width: 100%;
+  }
+  .benefits {
+    margin-top: 40px;
+    flex-direction: column-reverse;
+    margin-left: 44px;
+  }
+
+  .trusted {
+    margin-top: 50px;
+  }
+  .sag {
+    display: block;
+    align-items: center;
+    margin-left: 58px;
+  }
+  .class1 {
+    display: block;
+  }
+  .fin {
+    margin-left: 34px;
+  }
+  .meet {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .with {
+    margin-left: 19px;
+  }
+
+  .with h1 {
+    display: none;
+  }
+  .ease h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #190e2f;
+  }
+  .easy img {
+    width: 296px;
+    height: 252px;
+    margin-left: 39px;
+  }
+  .brand {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-top: 40px;
+  }
+  .brand_image h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .brand_image img {
+    margin-left: 19px;
+  }
+  .your {
+    margin: auto;
+    margin-left: 19px;
+  }
+  .your h1 {
+    display: none;
+  }
+
+  .easily {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .widget {
+    margin-left: 19px;
+    text-align: center;
+  }
+  .widget h1 {
+    display: none;
+  }
+  .site h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .site img {
+    width: 80%;
+    margin-left: 36px;
+  }
+  .biling {
+    display: block;
+    margin-top: 50px;
+  }
+  .never {
+    margin-left: 19px;
+  }
+  .never h1 {
+    display: none;
+  }
+  .has h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .has img {
+    width: 80%;
+    margin-left: 36px;
+  }
+
+  .manage {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 80px;
+  }
+  .manage-image img {
+    width: 80%;
+    margin-left: 45px;
+  }
+  .clients h1 {
+    display: none;
+  }
+
+  .clients {
+    margin-left: 19px;
+  }
+  .manage-image h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .them {
+    display: block;
+    margin-top: auto;
+    margin-top: 80px;
+  }
+  .immagge img {
+    width: 80%;
+    margin-left: 45px;
+  }
+  .immagge h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .face {
+    margin-left: 19px;
+  }
+  .face h1 {
+    display: none;
+  }
+  .run {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .awesome h1 {
+    display: none;
+  }
+  .awesome {
+    margin-left: 19px;
+  }
+  .imagees h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .imagees img {
+    width: 80%;
+    margin-left: 45px;
+  }
+  .footer {
+    text-align: center;
+    flex-direction: column;
+  }
+
+   .immgg img {
+  width: 90%;
+  }
+  .footer h1 {
+    margin-top: 0px;
+  }
+
+  .mari {
+    flex-direction: column;
+  }
+  .with p {
+    margin: 16px 0px;
+  }
+  .your p {
+    margin: 16px 0px;
+  }
+  .never p {
+    margin: 16px 0px;
+  }
+  .clients p {
+    margin: 16px 0px;
+  }
+  .contact {
+    margin-left: 0px;
+  }
+  .face p {
+    margin: 16px 0px;
+  }
+  .awesome p {
+    margin: 16px 0px;
+  }
+  .class2 {
+    display: block;
+  }
+}
+
+/*  media screen and (max-width: 991px) */
+@media screen and (max-width: 991px) {
+  
+  .left {
+    margin-left: 39px; 
+  }
+
+  .right{
+    margin-right:5px;
+  }
+  .class1 {
+    display: block;
+  }
+  li a{
+  margin-left: 20px;
+}
+  .up {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cust {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .share{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .sch {
+    margin: 136px 0px 0px 0px;
+  }
+  .the {
+    margin: 140px 0px 0px 0px;
+  }
+  .the img {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .the h2 {
+    margin-top: 0px;
+  }
+  .benefits {
+    margin: 71px 149px 92px 60px;
+  }
+  
+  .meet {
+    margin: 100px 0px 0px 15px;
+  }
+  .ease img {
+    padding: 35px 10px 0px 15px;
+    height: 520.91px;
+  }
+  .brand {
+    justify-content: center;
+    display: flex;
+    margin: 150px 0px 0px 8px;
+  }
+
+  .your {
+    margin: 0px 8px 0px 20px;
+  }
+  .bilingimg img {
+    height: 577px;
+  }
+  .never h1 {
+    margin: 0px 0px 21px 0px;
+  }
+  .clients {
+    margin: 0px 10px 0px 10px;
+  }
+  .mari {
+    flex-direction: column;
+  }
+  .class2 {
+    display: block;
+  }
+} 
